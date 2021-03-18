@@ -18,7 +18,7 @@ public class MainClass {
 	}
 	
 	public static CuoreSolitario creaUtente(int nUtente) {
-		System.out.println("UTENTE " + nUtente);
+		System.out.println("<=== UTENTE " + nUtente + " ===>");
 		String alias = InputDati.leggiStringaNonVuota(String.format(MSG_ALIAS));
 		char sesso = InputDati.leggiUpperChar(String.format(MSG_SESSO), "M, F");
 		int eta = InputDati.leggiInteroNonNegativo(String.format(MSG_ETA));
